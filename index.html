@@ -12,11 +12,11 @@
 </head>
 <body>
     <div class="main-website">
-        <header>
+        <header id="anchor-header">
             <h1>Marco Erhardt</h1>
             <p>Becoming a Web Developer</p>
         </header>
-        <main>
+        <main id="anchor-main">
         <section class="formproject-section">
             <img src="img/formproject-thumbnail.jpeg" alt="thumbnail of formproject">
             <div class="project-description">
@@ -38,7 +38,7 @@
             </div>
         </section>
         </main>
-        <footer>
+        <footer id="anchor-footer">
             <ul>
                 <a href="https://github.com/marcode95/" target="_blank" class="github-contact">
                     <li><i class="fab fa-github-square"></i>Github</li>
@@ -54,12 +54,18 @@
     </div>
         <aside>
             <ul>
-                <il class="sidebar-elements">W E L C O M E</il>
-                <div class="line"></div>
-                <il class="sidebar-elements">P R O J E C T S</il>
-                <div class="line"></div>
-                <il class="sidebar-elements">C O N T A C T S</il>
-                <div class="line"></div>
+                <a href="#anchor-header">
+                    <il class="sidebar-elements">W E L C O M E</il>
+                    <div class="line"></div>
+                </a>
+                <a href="#anchor-main">
+                    <il class="sidebar-elements">P R O J E C T S</il>
+                    <div class="line"></div>
+                </a>
+                <a href="#anchor-footer">
+                    <il class="sidebar-elements">C O N T A C T</il>
+                    <div class="line"></div>
+                </a>
             </ul>
         </aside>
 </body>
