@@ -170,21 +170,12 @@ aside ul a .line {
     
     aside ul {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 200px 200px 200px 1fr;
-        grid-template-rows: 100px;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .grid-column-setter {
-        grid-column-start: 2;
-    }
-
-    .grid-column-setter2 {
-        grid-column-start: 3;
-    }
-
-    .grid-test {
-        justify-self: center;
+    .options {
+        display: inline;
     }
 
     aside ul a .line {
