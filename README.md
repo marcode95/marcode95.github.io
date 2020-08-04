@@ -45,7 +45,7 @@ Just navigate through the page.
 👤 **Marco Erhardt**
 
 - Github: [@marcode95](https://github.com/marcode95)
-
+- Mail: marcoerhardt95@gmail.com
 
 ## 🤝 Contributing
 
