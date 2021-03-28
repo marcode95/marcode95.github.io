@@ -218,3 +218,13 @@ function onMouseLeave() {
   pointerY = null;
 
 }
+
+
+
+
+
+const showcaseButton = document.getElementById('showcase-button');
+const showcaseHeight = document.getElementById('showcase').scrollHeight
+showcaseButton.addEventListener('click', () => {
+  window.scrollBy(0, window.scrollBy(0, widnow.innerHeight)
+)
