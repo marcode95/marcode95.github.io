@@ -183,6 +183,12 @@ i {
   width: 50%;
 }
 
+.self-picture {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+}
+
 .self-stack-section {
   width: 50%;
 }
