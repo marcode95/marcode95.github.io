@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="../src/assets/style.css"/>
   <link rel="stylesheet" href="../src/assets/reset.css"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://kit.fontawesome.com/9a2f12287f.js" crossorigin="anonymous"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-    </style>
+  </style>
 </head>
 <body>
   <div id="showcase">
@@ -39,29 +40,45 @@
       <div class="section-header-underline mx-auto"></div>
       <div class="circles d-flex justify-content-between mx-auto">
         <div class="circle-container">
-          <div class="circle"><i class="fas fa-arrows-alt"></i></div>
-          <p class="circle-header">Diverse</p>
-          <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          <div class="circle" data-aos="flip-right" data-aos-duration="700"> 
+            <i class="fas fa-arrows-alt"></i>
+          </div>
+          <div data-aos="fade-in" data-aos-duration="700">
+            <p class="circle-header">Diverse</p>
+            <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          </div>
         </div>
         <div class="circle-container">
-          <div class="circle"><i class="fas fa-brain"></i></div>
-          <p class="circle-header">Simple</p>
-          <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          <div class="circle" data-aos="flip-right" data-aos-duration="700" data-aos-delay="200">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div data-aos="fade-in" data-aos-duration="700" data-aos-delay="200">
+            <p class="circle-header">Simple</p>
+            <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          </div>
         </div>
         <div class="circle-container">
-          <div class="circle"><i class="fas fa-search-plus"></i></div>
-          <p class="circle-header">Filigree</p>
-          <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          <div class="circle" data-aos="flip-right" data-aos-duration="700" data-aos-delay="400">
+            <i class="fas fa-search-plus"></i>
+          </div>
+          <div data-aos="fade-in" data-aos-duration="700" data-aos-delay="400">
+            <p class="circle-header">Filigree</p>
+            <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          </div>
         </div>
         <div class="circle-container">
-          <div class="circle"><i class="fas fa-mobile-alt"></i></div>
-          <p class="circle-header">Responsive</p>
-          <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          <div class="circle" data-aos="flip-right" data-aos-duration="700" data-aos-delay="600">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div data-aos="fade-in" data-aos-duration="700" data-aos-delay="600">
+            <p class="circle-header">Responsive</p>
+            <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error deleniti sint.</p>
+          </div>
         </div>
       </div>
 
       <div class="self-presentation d-flex mx-auto mt-2">
-        <div class="self-picture-section d-flex flex-column align-items-center">
+        <div class="self-picture-section d-flex flex-column align-items-center" data-aos="fade-right" data-aos-duration="1000">
           <img src="../src/images/pepe.jpg" alt="" class="self-picture">
           <p class="circle-header mt-3">Lorem, ipsum dolor.</p>
           <p class="circle-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, similique mollitia laborum reiciendis possimus deserunt vitae expedita corrupti nesciunt vel culpa aliquid modi atque saepe.</p>
@@ -69,40 +86,40 @@
 
         <div class="self-stack-section">
           <div class="self-stack-row">
-            <span class="self-stack-name">HTML</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade">HTML</span>
+            <div class="self-stack-check" data-aos="fade-left"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">CSS</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="100">CSS</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="100"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">JAVASCRIPT</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="200">JAVASCRIPT</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="200"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">REACT</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="300">REACT</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="300"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">REDUX</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="400">REDUX</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="400"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">RUBY</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="500">RUBY</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="500"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">PYTHON</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="600">PYTHON</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="600"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">RAILS</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="700">RAILS</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="700"><i class="fas fa-check"></i></div>
           </div>
           <div class="self-stack-row">
-            <span class="self-stack-name">SQL</span>
-            <div class="self-stack-check"><i class="fas fa-check"></i></div>
+            <span class="self-stack-name" data-aos="fade" data-aos-delay="800">SQL</span>
+            <div class="self-stack-check" data-aos="fade-left" data-aos-delay="800"><i class="fas fa-check"></i></div>
           </div>
         </div>
       </div>
@@ -112,8 +129,11 @@
   <div class="portfolio">
 
   </div>
-
   <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </div>
 </html>
