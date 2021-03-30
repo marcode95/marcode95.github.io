@@ -151,7 +151,7 @@ nav {
   margin-bottom: 12px;
 }
 
-i {
+.circle i {
   position: absolute;
   top: 53%;
   left: 50%;
@@ -161,7 +161,8 @@ i {
   color: white;
 }
 
-.circle-container p{
+.circle-container p
+.self-picture-section p{
   color: rgb(124, 124, 124);
 }
 
@@ -177,10 +178,13 @@ i {
 
 .self-presentation {
   width: 70%;
+  padding-top: 20px;
 }
 
 .self-picture-section {
   width: 50%;
+  text-align: center;
+  padding: 0 30px;
 }
 
 .self-picture {
@@ -191,6 +195,36 @@ i {
 
 .self-stack-section {
   width: 50%;
+  padding: 0 60px;
+}
+
+.self-stack-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.self-stack-name {
+  font-size: 28px;
+}
+
+.self-stack-check {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+.self-stack-check i {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
 }
 
 /* portfolio */
