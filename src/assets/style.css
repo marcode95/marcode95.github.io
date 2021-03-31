@@ -115,13 +115,13 @@ nav {
 
 .section-header {
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 38px;
   font-weight: bold;
   margin-top: 40px;
 }
 
 .section-header-underline {
-  width: 5vw;
+  width: 110px;
   height: 3px;
   background-color: black;
   margin-top: 10px;
@@ -242,6 +242,23 @@ nav {
 
   /* about */
   
+  .nav-item-list {
+    width: 85%;
+  }
+
+  .nav-item a {
+    font-size: 13px;
+  }
+
+  .section-header {
+    font-size: 28px;
+  }
+
+  .section-header-underline {
+    width: 75px;
+    margin-top: 0;
+  }
+
   .circle {
     position: relative;
     height: 80px;
@@ -271,14 +288,27 @@ nav {
   .circle-description {
     font-size: 11px;
   }
+
+  .self-picture {
+    height: 200px;
+    width: 200px;
+  }
+
+  .self-stack-name {
+    font-size: 20px;
+  }
+
+  .self-stack-section {
+    padding: 0px 40px;
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 992px) {
 
   /* about */
-  
+
   .circles {
-    border: 3px solid black;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -291,7 +321,22 @@ nav {
   }
 
   .self-presentation {
-    display: none;
+    width: 100%;
+  }
+
+  .self-stack-section {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 992px) {
+  
+  .nav-item-list {
+    width: 70%;
+  }
+
+  .self-stack-section {
+    padding: 0 100px;
   }
 }
 
