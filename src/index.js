@@ -41,11 +41,11 @@ document.querySelectorAll('div.project-image-container').forEach(item => {
   item.addEventListener('mouseenter', (e) => {
     e.target.innerHTML = `
     <div class="project-description w-100 h-100 d-flex flex-column justify-content-between align-items-center">
-      <div data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">
+      <div class="project-title-stack-container data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">
         <p class="project-title">Project</p>
         <p class="project-stack">Javascript</p>
       </div>
-      <a href="#" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">LIVE DEMO</a>
+      <a href="#" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title-stack-container">LIVE DEMO</a>
     </div>`;
   })
   item.addEventListener('mouseleave', (e) => {
