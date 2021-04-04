@@ -48,6 +48,7 @@ canvas {
   color: #fff;
   font-size: 3vw;
   line-height: 4vw;
+  pointer-events: none;
 }
 
 #showcase-button {
@@ -62,6 +63,7 @@ canvas {
   -webkit-transition: box-shadow 600ms ease-in-out, color 300ms ease-in-out;
   transition: box-shadow 600ms ease-in-out, color 300ms ease-in-out;
   transition: border-color 500ms;
+  pointer-events: auto;
 }
 
 #showcase-button:hover,
@@ -276,7 +278,7 @@ nav {
 
 .project-description {
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 50%;
   z-index: 1;
   transform: translate(-50%, -50%);
@@ -286,13 +288,14 @@ nav {
 
 .project-title {
   font-size: 36px;
-  margin-top: 37px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 
 .project-stack {
   font-size: 15px;
   margin-top: 0;
+  margin-bottom: 55px;
 }
 
 .project-link {
@@ -527,13 +530,14 @@ footer {
 
   .project-title {
     font-size: 20px;
-    margin-top: 22px;
+    margin-top: 15px;
     margin-bottom: 0;
   }
   
   .project-stack {
     font-size: 10px;
     margin-top: 0;
+    margin-bottom: 33px;
   }
   
   .project-link {
@@ -595,13 +599,14 @@ footer {
 
   .project-title {
     font-size: 48px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 0;
   }
   
   .project-stack {
     font-size: 20px;
     margin-top: 0;
+    margin-bottom: 80px;
   }
   
   .project-link {
