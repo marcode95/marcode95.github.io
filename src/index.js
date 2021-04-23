@@ -31,20 +31,17 @@ const handleTabletChange = (e) => {
 mediaQuery.addListener(handleTabletChange);
 handleTabletChange(mediaQuery);
 
-
-
-
-
-document.querySelectorAll('div.project-image-container').forEach(item => {
-  item.addEventListener('mouseenter', (e) => {
-    e.target.innerHTML = `
-    <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
-      <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Project</p>
-      <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">Javascript</p>
-      <a href="#" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">LIVE DEMO</a>
-    </div>`;
-  })
-  item.addEventListener('mouseleave', (e) => {
-    e.target.innerHTML = ``;
-  })
+const projectImageContainers = document.querySelectorAll('div.project-image-container');
+projectImageContainers[0].addEventListener('mouseenter', (e) => {
+  e.target.innerHTML = `
+  <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">E-DEALS</p>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS, Rails</p>
+    <a href="https://github.com/marcode95/e-deals" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    <a href="https://desolate-beach-15262.herokuapp.com/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+  </div>`;
 })
+projectImageContainers[0].addEventListener('mouseleave', (e) => {
+  e.target.innerHTML = ``;
+})
+
