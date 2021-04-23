@@ -278,10 +278,15 @@ nav {
 
 .edeals:after {
   background-image: url('../images/edeals.png');
+  background-position: 60% 10%;
 }
 
 .todos:after {
   background-image: url('../images/todos.png');
+}
+
+.procon:after {
+  background-image: url('../images/procon.webp');
 }
 
 .project-image-container:hover:after {

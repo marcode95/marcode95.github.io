@@ -58,3 +58,16 @@ projectImageContainers[1].addEventListener('mouseenter', (e) => {
 projectImageContainers[1].addEventListener('mouseleave', (e) => {
   e.target.innerHTML = ``;
 })
+
+projectImageContainers[2].addEventListener('mouseenter', (e) => {
+  e.target.innerHTML = `
+  <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">PRO-CON</p>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS</p>
+    <a href="https://github.com/marcode95/HTML-CSS-capstone" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    <a href="https://raw.githack.com/marcode95/HTML-CSS-capstone/feature/index.html" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+  </div>`;
+})
+projectImageContainers[2].addEventListener('mouseleave', (e) => {
+  e.target.innerHTML = ``;
+})
