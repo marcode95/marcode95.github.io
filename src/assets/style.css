@@ -328,7 +328,7 @@ nav {
   text-decoration: none;
   background-color: #f5f5f5;
   color: lightblue;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .project-link {
@@ -344,7 +344,7 @@ nav {
   text-decoration: none;
   background-color: #f5f5f5;
   color: lightblue;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 /* contact */
@@ -399,7 +399,7 @@ nav {
   text-decoration: none;
   background-color: white;
   color: rgb(0, 0, 85);
-  transition: 1s;
+  transition: 0.7s;
 }
 
 ::placeholder {
@@ -426,7 +426,7 @@ footer {
 .footer-circle:hover {
   color: lightblue;
   background-color: #f5f5f5;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .year {
