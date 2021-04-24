@@ -71,3 +71,36 @@ projectImageContainers[2].addEventListener('mouseenter', (e) => {
 projectImageContainers[2].addEventListener('mouseleave', (e) => {
   e.target.innerHTML = ``;
 })
+
+projectImageContainers[3].addEventListener('mouseenter', (e) => {
+  e.target.innerHTML = `
+  <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Coming soon</p>
+
+  </div>`;
+})
+projectImageContainers[3].addEventListener('mouseleave', (e) => {
+  e.target.innerHTML = ``;
+})
+
+projectImageContainers[4].addEventListener('mouseenter', (e) => {
+  e.target.innerHTML = `
+  <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Coming soon</p>
+
+  </div>`;
+})
+projectImageContainers[4].addEventListener('mouseleave', (e) => {
+  e.target.innerHTML = ``;
+})
+
+projectImageContainers[5].addEventListener('mouseenter', (e) => {
+  e.target.innerHTML = `
+  <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Coming soon</p>
+
+  </div>`;
+})
+projectImageContainers[5].addEventListener('mouseleave', (e) => {
+  e.target.innerHTML = ``;
+})
