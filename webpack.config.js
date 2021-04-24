@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   devServer: {
-    contentBase: './dist',
+    contentBase: './',
   },
   output: {
     filename: 'main.js',
