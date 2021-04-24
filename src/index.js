@@ -49,10 +49,7 @@ projectImageContainers[0].addEventListener('mouseleave', (e) => {
 projectImageContainers[1].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
-    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">TO-DO'S</p>
-    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS, Javascript</p>
-    <a href="https://github.com/marcode95/to-do-list" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
-    <a href="https://cocky-ardinghelli-805b0e.netlify.app/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Coming soon</p>
   </div>`;
 })
 projectImageContainers[1].addEventListener('mouseleave', (e) => {
@@ -84,10 +81,12 @@ projectImageContainers[3].addEventListener('mouseleave', (e) => {
 })
 
 projectImageContainers[4].addEventListener('mouseenter', (e) => {
-  e.target.innerHTML = `
+  e.target.innerHTML =  `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
-    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Coming soon</p>
-
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">TO-DO'S</p>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS, Javascript</p>
+    <a href="https://github.com/marcode95/to-do-list" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    <a href="https://cocky-ardinghelli-805b0e.netlify.app/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
   </div>`;
 })
 projectImageContainers[4].addEventListener('mouseleave', (e) => {
