@@ -204,6 +204,7 @@ nav {
   height: 260px;
   width: 260px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .self-stack-section {
