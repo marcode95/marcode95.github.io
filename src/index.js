@@ -49,7 +49,10 @@ projectImageContainers[0].addEventListener('mouseleave', (e) => {
 projectImageContainers[1].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
-    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">Coming soon</p>
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">IN THE WOODS</p>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">Javascript, Phaser</p>
+    <a href="https://github.com/marcode95/phaser-game" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    <a href="https://agitated-curie-05b9b2.netlify.app/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
   </div>`;
 })
 projectImageContainers[1].addEventListener('mouseleave', (e) => {

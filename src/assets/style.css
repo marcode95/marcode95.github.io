@@ -282,6 +282,11 @@ nav {
   background-position: 60% 10%;
 }
 
+.inthewoods:after {
+  background-image: url('../images/inthewoods.png');
+  background-position: 60% 10%;
+}
+
 .todos:after {
   background-image: url('../images/todos.png');
 }
