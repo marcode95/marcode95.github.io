@@ -311,6 +311,7 @@ nav {
 
 .project-title {
   font-size: 28px;
+  margin-top: 8px;
   margin-bottom: 0;
 }
 
@@ -323,7 +324,7 @@ nav {
 
 .project-summary {
   font-size: 13px;
-  margin-bottom: 45px;
+  margin-bottom: 38px;
 
 }
 
@@ -595,19 +596,19 @@ footer {
   }
 
   .project-title {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 0;
   }
   
   .project-stack {
     font-size: 12px;
     margin-top: 0;
-    margin-bottom: 3px;
+    margin-bottom: 0;
   }
 
   .project-summary {
-    font-size: 10px;
-    margin-bottom: 14px;
+    font-size: 11px;
+    margin-bottom: 4px;
   }
   
   .github-link {
@@ -676,6 +677,7 @@ footer {
 
   .project-title {
     font-size: 38px;
+    margin-top: 10px;
     margin-bottom: 0;
   }
   
@@ -687,7 +689,7 @@ footer {
 
   .project-summary {
     font-size: 14px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 
   .github-link {

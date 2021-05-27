@@ -52,11 +52,14 @@ projectImageContainers[0].addEventListener('mouseleave', (e) => {
 projectImageContainers[1].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
     <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
-    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">E-DEALS</p>
-    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS, Rails</p>
-    <a href="https://github.com/marcode95/e-deals" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
-    <a href="https://desolate-beach-15262.herokuapp.com/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
-  </div>`;
+      <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">E-DEALS</p>
+      <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML / CSS / Rails</p>
+      <p class="project-summary" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title">Sidescroller Jump 'n Run game including shooting enemies, collecting coins, an end boss fight, and a leaderboard API.</p>
+      <div class="d-flex">
+        <a href="https://desolate-beach-15262.herokuapp.com/" class="github-link" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+        <a href="https://github.com/marcode95/e-deals" class="github-link" data-aos="fade-left" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+      </div>
+    </div>`;
 })
 projectImageContainers[1].addEventListener('mouseleave', (e) => {
   e.target.innerHTML = ``;
@@ -66,9 +69,12 @@ projectImageContainers[2].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
     <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">PRO-CON</p>
-    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS</p>
-    <a href="https://github.com/marcode95/HTML-CSS-capstone" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
-    <a href="https://raw.githack.com/marcode95/HTML-CSS-capstone/feature/index.html" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML / CSS</p>
+    <p class="project-summary" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title">Sidescroller Jump 'n Run game including shooting enemies, collecting coins, an end boss fight, and a leaderboard API.</p>
+    <div class="d-flex">
+      <a href="https://raw.githack.com/marcode95/HTML-CSS-capstone/feature/index.html" class="github-link" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+      <a href="https://github.com/marcode95/HTML-CSS-capstone" class="github-link" data-aos="fade-left" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    </div>
   </div>`;
 })
 projectImageContainers[2].addEventListener('mouseleave', (e) => {
@@ -80,8 +86,11 @@ projectImageContainers[3].addEventListener('mouseenter', (e) => {
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
     <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">TO-DO'S</p>
     <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">HTML, CSS, Javascript</p>
-    <a href="https://github.com/marcode95/to-do-list" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
-    <a href="https://cocky-ardinghelli-805b0e.netlify.app/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+    <p class="project-summary" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title">Sidescroller Jump 'n Run game including shooting enemies, collecting coins, an end boss fight, and a leaderboard API.</p>
+    <div class="d-flex">
+      <a href="https://cocky-ardinghelli-805b0e.netlify.app/" class="github-link" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+      <a href="https://github.com/marcode95/to-do-list" class="github-link" data-aos="fade-left" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    </div>
   </div>`;
 })
 projectImageContainers[3].addEventListener('mouseleave', (e) => {
