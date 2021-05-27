@@ -291,7 +291,7 @@ nav {
 }
 
 .procon:after {
-  background-image: url('../images/procon.webp');
+  background-image: url('../images/procon.png');
 }
 
 .project-image-container:hover:after {
