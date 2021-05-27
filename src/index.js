@@ -37,9 +37,12 @@ projectImageContainers[0].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
     <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">IN THE WOODS</p>
-    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title">Javascript, Phaser</p>
-    <a href="https://github.com/marcode95/phaser-game" class="github-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
-    <a href="https://agitated-curie-05b9b2.netlify.app/" class="project-link" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="200" data-aos-duration="550" data-aos-anchor=".project-title">Javascript / Phaser</p>
+    <p class="project-summary" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title">Sidescroller Jump 'n Run game including shooting enemies, collecting coins, an end boss fight, and a leaderboard API.</p>
+    <div class="d-flex">
+      <a href="https://agitated-curie-05b9b2.netlify.app/" class="github-link" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+      <a href="https://github.com/marcode95/phaser-game" class="github-link" data-aos="fade-left" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    </div>
   </div>`;
 })
 projectImageContainers[0].addEventListener('mouseleave', (e) => {

@@ -306,24 +306,32 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
   color: black;
+  padding: 0 10px;
 }
 
 .project-title {
-  font-size: 36px;
-  margin-top: 15px;
+  font-size: 28px;
   margin-bottom: 0;
 }
 
 .project-stack {
   font-size: 15px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 7px;
+  color: rgb(0, 0, 85);
+}
+
+.project-summary {
+  font-size: 13px;
+  margin-bottom: 45px;
+
 }
 
 .github-link {
   font-size: 14px;
   color: white;
   background-color: lightblue;
+  margin-left: 5px;
   margin-bottom: 8px;
   padding: 3px 8px;
   border: 1.4px solid lightblue;
@@ -331,7 +339,7 @@ nav {
 
 .github-link:hover {
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: white;
   color: lightblue;
   transition: 0.7s;
 }
@@ -587,15 +595,19 @@ footer {
   }
 
   .project-title {
-    font-size: 20px;
-    margin-top: 15px;
+    font-size: 15px;
     margin-bottom: 0;
   }
   
   .project-stack {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 0;
-    margin-bottom: 17px;
+    margin-bottom: 3px;
+  }
+
+  .project-summary {
+    font-size: 10px;
+    margin-bottom: 14px;
   }
   
   .github-link {
@@ -663,22 +675,26 @@ footer {
   }
 
   .project-title {
-    font-size: 48px;
-    margin-top: 30px;
+    font-size: 38px;
     margin-bottom: 0;
   }
   
   .project-stack {
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 37px;
+    margin-bottom: 10px;
+  }
+
+  .project-summary {
+    font-size: 14px;
+    margin-bottom: 80px;
   }
 
   .github-link {
     font-size: 20px;
-    margin-bottom: 10px;
     padding: 3px 10px;
     border: 2px solid lightblue;
+    width: 150px;
   }
 
   .project-link {
