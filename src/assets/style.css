@@ -83,6 +83,7 @@ canvas {
   font-family: raleway, sans-serif, arial;
   font-weight: 600;
   padding-top: 50px;
+  background: #f5f5f5;
 }
 
 nav {
@@ -245,7 +246,6 @@ nav {
 
 #portfolio {
   min-height: 100vh;
-  background: #f5f5f5;
   font-weight: 600;
   padding-top: 50px;
 }
@@ -262,7 +262,6 @@ nav {
   position: relative;
   width: 300px;
   height: 220px;
-  background: #f5f5f5;
 }
 
 .project-image-container:after {
