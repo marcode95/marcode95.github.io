@@ -323,6 +323,11 @@ nav {
   background-image: url('../images/procon.png');
 }
 
+.vcl:after {
+  background-image: url('../images/vcl.png');
+  background-position: center;
+}
+
 .project-image-container:hover:after {
   opacity: 0;
 }

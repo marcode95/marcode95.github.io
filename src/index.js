@@ -1,8 +1,6 @@
 import canvas from './components/canvas';
 canvas();
 
-
-
 const mediaQuery = window.matchMedia('(max-width: 540px)')
 
 const handleTabletChange = (e) => {
@@ -51,6 +49,22 @@ projectImageContainers[0].addEventListener('mouseleave', (e) => {
 
 projectImageContainers[1].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
+  <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600">IN THE WOODS</p>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="300" data-aos-duration="500" data-aos-anchor=".project-title">VCL / NG-VCL</p>
+    <p class="project-summary" data-aos="fade-down" data-aos-delay="400" data-aos-duration="400" data-aos-anchor=".project-title">A comprehensive library of components for Angular 11+ with VCL based styling.</p>
+    <div class="d-flex">
+      <a href="https://vcl.github.io/" class="github-link" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
+      <a href="https://github.com/vcl" class="github-link" data-aos="fade-left" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">GITHUB</a>
+    </div>
+  </div>`;
+})
+projectImageContainers[1].addEventListener('mouseleave', (e) => {
+  e.target.innerHTML = ``;
+})
+
+projectImageContainers[2].addEventListener('mouseenter', (e) => {
+  e.target.innerHTML = `
     <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
       <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600">E-DEALS</p>
       <p class="project-stack" data-aos="fade-down" data-aos-delay="300" data-aos-duration="500" data-aos-anchor=".project-title">HTML / CSS / Rails</p>
@@ -61,11 +75,11 @@ projectImageContainers[1].addEventListener('mouseenter', (e) => {
       </div>
     </div>`;
 })
-projectImageContainers[1].addEventListener('mouseleave', (e) => {
+projectImageContainers[2].addEventListener('mouseleave', (e) => {
   e.target.innerHTML = ``;
 })
 
-projectImageContainers[2].addEventListener('mouseenter', (e) => {
+projectImageContainers[3].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
     <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600">PRO-CON</p>
@@ -77,11 +91,11 @@ projectImageContainers[2].addEventListener('mouseenter', (e) => {
     </div>
   </div>`;
 })
-projectImageContainers[2].addEventListener('mouseleave', (e) => {
+projectImageContainers[3].addEventListener('mouseleave', (e) => {
   e.target.innerHTML = ``;
 })
 
-projectImageContainers[3].addEventListener('mouseenter', (e) => {
+projectImageContainers[4].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
     <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600">TO-DO'S</p>
@@ -93,6 +107,6 @@ projectImageContainers[3].addEventListener('mouseenter', (e) => {
     </div>
   </div>`;
 })
-projectImageContainers[3].addEventListener('mouseleave', (e) => {
+projectImageContainers[4].addEventListener('mouseleave', (e) => {
   e.target.innerHTML = ``;
 })
