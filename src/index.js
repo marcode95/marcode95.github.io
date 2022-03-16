@@ -50,8 +50,8 @@ projectImageContainers[0].addEventListener('mouseleave', (e) => {
 projectImageContainers[1].addEventListener('mouseenter', (e) => {
   e.target.innerHTML = `
   <div class="project-description w-100 h-100 d-flex flex-column align-items-center">
-    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600">IN THE WOODS</p>
-    <p class="project-stack" data-aos="fade-down" data-aos-delay="300" data-aos-duration="500" data-aos-anchor=".project-title">VCL / NG-VCL</p>
+    <p class="project-title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="600">VCL / NG-VCL</p>
+    <p class="project-stack" data-aos="fade-down" data-aos-delay="300" data-aos-duration="500" data-aos-anchor=".project-title">Angular</p>
     <p class="project-summary" data-aos="fade-down" data-aos-delay="400" data-aos-duration="400" data-aos-anchor=".project-title">A comprehensive library of components for Angular 11+ with VCL based styling.</p>
     <div class="d-flex">
       <a href="https://vcl.github.io/" class="github-link" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-anchor=".project-title" target="_blank">LIVE DEMO</a>
